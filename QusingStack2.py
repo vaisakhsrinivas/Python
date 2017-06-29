@@ -11,6 +11,7 @@ class QusingStack2(object):
         return self.outstack.pop()
 q=QusingStack2()
 for i in range(10):
+    print(i)
     q.enqueue(i)
 for i in range(10):
     print (q.dequeue())
