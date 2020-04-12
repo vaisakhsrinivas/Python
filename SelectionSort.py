@@ -24,3 +24,5 @@ if __name__ == "__main__":
 
     nums = [5,2,1,7,6,8,0]
     print(sort(nums))
+
+
