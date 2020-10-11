@@ -1,14 +1,22 @@
 def maxSubArray(nums):
 
 
-    maxsum = nums[0]
+    maxsum = 0
 
-    currentsum = nums[0]
+    currentsum = 0
 
-    for i in nums[1:]:
+    for i in range(0, len(nums)):
 
-        currentsum =  max(i, currentsum+i)
-        maxsum = max(maxsum, currentsum)
+        currentsum = currentsum + nums[i]
+
+        if maxsum < currentsum:
+
+            maxsum = currentsum
+
+        elif currentsum < 0:
+
+            currentsum = 0
+
 
     return maxsum
 
