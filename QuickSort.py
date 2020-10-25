@@ -7,8 +7,8 @@ def qsort(nums,low,high):
     qsort(nums, p+1, high)
 
 def partition(nums, low, high):
-    index = (low+high)//2
-    swap(nums, index, high)
+    index = (low+high)//2    #middle element
+    swap(nums, index, high) #swap middle and last element
 
     i = low
 
