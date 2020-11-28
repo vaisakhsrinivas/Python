@@ -15,14 +15,13 @@ def removeDuplicates(nums):
 
                 nums.pop(i)
                 i = i - 1
-
         else:
 
             count = 1
 
         i = i + 1
 
-    return len(nums)
+    return nums
 
 
 
