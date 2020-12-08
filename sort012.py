@@ -17,6 +17,6 @@ def sort012(arr, n):
 
 
 
-arr= [0,2,1,2,0]
+arr= [0,2,1,2,0,1,2,2,1,0]
 N = len(arr)
 print(sort012(arr, N))
